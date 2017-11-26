@@ -448,3 +448,41 @@ footer {
 .btn:active,
 .btn:focus {
   outline: none; }
+
+.helmet__skull, .helmet__nose {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 4px; }
+
+.helmet__skull {
+  stroke: white;
+  fill: none;
+  stroke-dasharray: 5804.49463;
+  stroke-dashoffset: 5804.49463;
+  animation: skull 5s ease-in-out alternate infinite; }
+
+.helmet__nose {
+  stroke: white;
+  fill: none;
+  stroke-dasharray: 862.50421;
+  stroke-dashoffset: 862.50421;
+  animation: nose 5s ease-in-out alternate infinite; }
+
+@keyframes skull {
+  from {
+    stroke-dashoffset: 5804.49463; }
+  to {
+    stroke-dashoffset: 0; } }
+
+@keyframes nose {
+  from {
+    stroke-dashoffset: 862.50421; }
+  to {
+    stroke-dashoffset: 0; } }
+
+.containerStorm {
+  text-align: center;
+  padding: 1em; }
+
+svg {
+  width: 50%; }
