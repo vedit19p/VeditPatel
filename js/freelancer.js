@@ -51,3 +51,8 @@
   });
 
 })(jQuery); // End of use strict
+
+// Animate Hi, I am Vedit Patel
+$(document).ready(function() {
+    $('.start').removeClass('start');
+});
